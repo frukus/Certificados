@@ -1,7 +1,7 @@
 <template>
   <div>
-    <pre> {{ $route.params}} </pre>
-    <h1> {{ $route.params.nombre}} {{ $route.params.id }} </h1>
+    <p>extra 2</p>
+    <h2> {{ certis.name }} {{ certis.telf }} </h2>
   </div>
 </template>
 

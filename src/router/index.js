@@ -29,9 +29,9 @@ const routes = [
     component: () => import('@/components/cer.vue')
   },
   {
-    path: '/prueba/na',
-    name: 'prueba',
-    component: () => import('@/components/cer.vue')
+    path: '/extra',
+    name: 'extra',
+    component: () => import('@/views/extra.vue')
   }
 ]
 
