@@ -1,13 +1,11 @@
 <template>
   <div>
-    <h1> primer certificado {{ $route.params.id }}</h1>
-    <h2>ruta 2</h2>
+    <h1>{{ $route.params.nombre}} {{ $route.params.id }}</h1>
   </div>
 </template>
 
 <script>
 export default {
-
 }
 </script>
 

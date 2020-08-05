@@ -27,6 +27,11 @@ const routes = [
     path: '/prueba/:id',
     name: 'prueba',
     component: () => import('@/components/cer.vue')
+  },
+  {
+    path: '/prueba/na',
+    name: 'prueba',
+    component: () => import('@/components/cer.vue')
   }
 ]
 
