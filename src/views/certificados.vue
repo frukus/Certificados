@@ -1,21 +1,26 @@
 <template>
-  <div class="about">
-    <h1>This is an about page</h1>
+  <div>
+    <h1>Lista</h1>
     <ul v-for="item of certis" :key="item.id">
       <li>
-        <h1> <router-link to="'/prueba" exact> {{item.id}} </router-link> {{item.name}} </h1>
+        <h1> {{item.id}} {{item.name}} </h1>
       </li>
     </ul>
+    <caertificado/>
   </div>
 </template>
 
 <script>
+import caertificado from '@/components/certificado.vue'
 import { mapState } from 'vuex'
-
 export default {
+  components: {
+    caertificado
+  },
   computed: {
     ...mapState(['certis'])
   }
+
 }
 </script>
 
