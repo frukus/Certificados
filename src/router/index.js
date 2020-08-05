@@ -22,11 +22,6 @@ const routes = [
     path: '/certificado/:id',
     name: 'certificado',
     component: () => import('@/views/certificados.vue')
-  },
-  {
-    path: '/prueba/:id',
-    name: 'prueba',
-    component: () => import('@/components/cer.vue')
   }
 ]
 

@@ -1,18 +1,21 @@
 <template>
-  <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <div class = "full_screen">
+    <div class = "webinar_title">
+        <img class="qr_container" src="../assets/logo.svg">
+        <h1>Transformación Digital</h1>
+        <spam>en Centros Educativos</spam>
+    </div>
   </div>
 </template>
 
 <script>
 // @ is an alias to /src
-import HelloWorld from '@/components/HelloWorld.vue'
 
-export default {
-  name: 'Home',
-  components: {
-    HelloWorld
+</script>
+<style>
+@media (max-width: 600px) {
+  .webinar_title{
+    font-size: 11px;
   }
 }
-</script>
+</style>
