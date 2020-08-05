@@ -19,19 +19,9 @@ const routes = [
     component: () => import(/* webpackChunkName: "about" */ '../views/About.vue')
   },
   {
-    path: '/certificado/:id',
-    name: 'certificado',
-    component: () => import('@/views/certificados.vue')
-  },
-  {
     path: '/prueba/:id',
     name: 'prueba',
     component: () => import('@/components/cer.vue')
-  },
-  {
-    path: '/extra',
-    name: 'extra',
-    component: () => import('@/views/extra.vue')
   }
 ]
 
