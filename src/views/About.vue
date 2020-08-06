@@ -2,11 +2,15 @@
   <div class="full_screen2">
     <div class="contenedor">
       <h1 style="color:white;">ID de Certificados</h1>
-      <ul style="padding:0;">
-        <li class="lista" v-for="item of certis" :key="item.id">
-          <spam> <router-link class="text" :to="'/prueba/' + item.id" exact> {{item.id}} </router-link></spam>
-        </li>
-      </ul>
+      <div class="arrow-up"></div>
+      <div class="scroll">
+        <ul style="padding:0 0 0 15px;">
+          <li class="lista" v-for="item of certis" :key="item.id">
+            <spam> <router-link class="text" :to="'/prueba/' + item.id" exact> {{item.id}} </router-link></spam>
+          </li>
+        </ul>
+      </div>
+      <div class="arrow-down"></div>
     </div>
   </div>
 </template>
@@ -22,6 +26,27 @@ export default {
 </script>
 
 <style>
+.arrow-up {
+  margin: 10px auto;
+  width: 0;
+  height: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-bottom: 10px solid white;
+}
+.arrow-down {
+  margin: 10px auto;
+  width: 0;
+  height: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-top: 10px solid white;
+}
+.scroll{
+  width: 250px;
+  height: calc(100vh - 250px);
+  overflow: scroll;
+}
 .full_screen2{
   background-image: linear-gradient(to right, rgba(248, 27, 63, 0.8), rgb(98, 54, 153, 1)),
   url("../../src/assets/fondo.jpeg");
