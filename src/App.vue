@@ -3,7 +3,7 @@
     <div class="relative">
       <div class="nav">
         <router-link class="text" to="/" >Webinar</router-link>
-        <router-link class="text" to="/about" >Personas Certificadas</router-link>
+        <router-link class="text" to="/certificados" >Personas Certificadas</router-link>
       </div>
     </div>
     <router-view/>
