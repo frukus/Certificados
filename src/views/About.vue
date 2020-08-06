@@ -74,6 +74,9 @@ export default {
   .contenedor{
     margin-top: 100px;
   }
+  .scroll{
+  height: calc(100vh - 300px);
+}
 }
 
 </style>
