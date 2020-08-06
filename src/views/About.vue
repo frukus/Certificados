@@ -45,15 +45,28 @@ export default {
   width: 250px;
   height: calc(100vh - 250px);
   overflow-y: auto;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 5px;
 }
-/* Hide scrollbar for Chrome, Safari and Opera */
-.scroll::-webkit-scrollbar {
-    display: none;
+/* width */
+::-webkit-scrollbar {
+  -webkit-appearance: none;
+  width: 10px;
 }
-/* Hide scrollbar for IE, Edge and Firefox */
-.scroll {
-  -ms-overflow-style: none;  /* IE and Edge */
-  scrollbar-width: none;
+
+/* Track */
+::-webkit-scrollbar-track {
+  border-radius: 5px;
+  background: rgba(255, 255, 255, 0.3);
+}
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background:rgba(255, 255, 255, 0.7);
+  border-radius: 5px;
+}
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background:rgba(255, 255, 255, 1);
 }
 .full_screen2{
   background-image: linear-gradient(to right, rgba(248, 27, 63, 0.8), rgb(98, 54, 153, 1)),
