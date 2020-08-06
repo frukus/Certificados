@@ -45,7 +45,6 @@ export default {
   width: 250px;
   height: calc(100vh - 250px);
   overflow-y: auto;
-<<<<<<< HEAD
   background: rgba(255, 255, 255, 0.1);
   border-radius: 5px;
 }
@@ -68,8 +67,6 @@ export default {
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
   background:rgba(255, 255, 255, 1);
-=======
->>>>>>> 85638288f7536f31f0b56f056e72246c853bfc8e
 }
 .full_screen2{
   background-image: linear-gradient(to right, rgba(248, 27, 63, 0.8), rgb(98, 54, 153, 1)),
