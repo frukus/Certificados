@@ -6,7 +6,7 @@
       <div class="scroll">
         <ul style="padding:0 0 0 15px;">
           <li class="lista" v-for="item of certis" :key="item.id">
-            <spam> <router-link class="text" :to="'/prueba/' + item.id" exact> {{item.id}} </router-link></spam>
+            <spam> <router-link class="text" :to="'/TDCE/' + item.id" exact> {{item.id}} </router-link></spam>
           </li>
         </ul>
       </div>
@@ -45,7 +45,7 @@ export default {
 .scroll{
   width: 250px;
   height: calc(100vh - 250px);
-  overflow: scroll;
+  overflow: hidden;
 }
 .full_screen2{
   background-image: linear-gradient(to right, rgba(248, 27, 63, 0.8), rgb(98, 54, 153, 1)),
