@@ -6,7 +6,7 @@
       <div class="scroll">
         <ul style="padding:0 0 0 15px;">
           <li class="lista" v-for="item of certis" :key="item.id">
-            <spam> <router-link class="text" :to="'/TDCE/' + item.id" exact> {{item.id}} </router-link></spam>
+            <span> <router-link class="text" :to="'/TDCE/' + item.id" exact> {{item.id}} </router-link></span>
           </li>
         </ul>
       </div>

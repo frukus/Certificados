@@ -3,7 +3,7 @@
     <div class = "webinar_title">
         <img class="qr_container" src="../assets/logo.svg">
         <h1>Transformación Digital</h1>
-        <spam>en Centros Educativos</spam>
+        <span>en Centros Educativos</span>
     </div>
   </div>
 </template>
