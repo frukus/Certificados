@@ -44,6 +44,7 @@
 <script>
 import { mapState } from 'vuex'
 export default {
+  name: 'cer',
   computed: {
     ...mapState(['certis']),
     hhh () {
