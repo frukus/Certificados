@@ -44,7 +44,7 @@ export default {
 .scroll{
   width: 250px;
   height: calc(100vh - 250px);
-  overflow: hidden;
+  overflow-y: auto;
 }
 .full_screen2{
   background-image: linear-gradient(to right, rgba(248, 27, 63, 0.8), rgb(98, 54, 153, 1)),
