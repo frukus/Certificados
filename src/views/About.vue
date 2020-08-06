@@ -44,7 +44,16 @@ export default {
 .scroll{
   width: 250px;
   height: calc(100vh - 250px);
-  overflow: scroll;
+  overflow-y: auto;
+}
+/* Hide scrollbar for Chrome, Safari and Opera */
+.scroll::-webkit-scrollbar {
+    display: none;
+}
+/* Hide scrollbar for IE, Edge and Firefox */
+.scroll {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;
 }
 .full_screen2{
   background-image: linear-gradient(to right, rgba(248, 27, 63, 0.8), rgb(98, 54, 153, 1)),
