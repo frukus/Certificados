@@ -8,7 +8,7 @@
           <img class="img_size" src="../assets/classroom.svg">
           <img class="img_size" src="../assets/moodle.svg">
         </div>
-        <p>Esta página valida la emisión del certificado <strong>{{hhh.id}}</strong> emitido por Overcron, a continuación se muestra los datos de la emision correspondiente.</p>
+        <p>Esta página valida la emisión del certificado <strong>{{hhh.id}}</strong> emitido por Overcron, a continuación se muestra los datos de la emisión correspondiente.</p>
         <table>
           <tbody>
               <tr>
@@ -44,6 +44,7 @@
 <script>
 import { mapState } from 'vuex'
 export default {
+  name: 'cer',
   computed: {
     ...mapState(['certis']),
     hhh () {

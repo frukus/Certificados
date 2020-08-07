@@ -3,7 +3,7 @@
     <div class="relative">
       <div class="nav">
         <router-link class="text" to="/" >Webinar</router-link>
-        <router-link class="text" to="/about" >Personas Certificadas</router-link>
+        <router-link class="text" to="/certificados" >Personas Certificadas</router-link>
       </div>
     </div>
     <router-view/>
@@ -42,7 +42,7 @@ html, body{
   margin: 0;
   padding: 0;
 }
-.webinar_title spam{
+.webinar_title span{
   font-size: 2.5em;
   display: block;
   font-variant: normal;
