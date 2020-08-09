@@ -23,7 +23,7 @@ export default new Vuex.Store({
       { name: 'QUENIA DELITZER  GUARY SOTTO ', id: 10672 },
       { name: 'TEOLINDA AMAZA NOCRE', id: 16758 },
       { name: 'LUZ MARINA MORON', id: 21827 },
-      { name: 'BOZENA IRENA MISIAK', id: 23248 },
+      { name: 'BOZENA IRENA MISIAK', id: 14107 },
       { name: 'MARIELA  RUEDA VALENCIA ', id: 15652 },
       { name: 'ROLANDO VARGAS MARTINEZ', id: 16777 }
     ]
