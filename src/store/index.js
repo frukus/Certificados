@@ -7,7 +7,7 @@ export default new Vuex.Store({
   state: {
     certis: [
       { name: 'JOSE LINO LOAYZA CASTRO ', id: 26681 },
-      { name: 'NANCY NÚÑEZ CHUMACERO', id: 10139 },
+      { name: 'LIC. NANCY NÚÑEZ CHUMACERO', id: 10139 },
       { name: 'IVAN CALCINA HUAYHUA', id: 10539 },
       { name: 'MARTHA VILLARROEL VALDIVIA', id: 21580 },
       { name: 'MELVY TALAVERA MENACHO', id: 19399 },
