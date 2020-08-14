@@ -25,7 +25,21 @@ export default new Vuex.Store({
       { name: 'LUZ MARINA MORON', id: 21827 },
       { name: 'BOZENA IRENA MISIAK', id: 14107 },
       { name: 'MARIELA  RUEDA VALENCIA ', id: 15652 },
-      { name: 'ROLANDO VARGAS MARTINEZ', id: 16777 }
+      { name: 'ROLANDO VARGAS MARTINEZ', id: 16777 },
+      { name: 'JOSÉ ELIO GABRIEL LÓPEZ.', id: 34569 },
+      { name: 'DRA. MARIA DEL CARMEN SARAVIA CARDOZO', id: 34579 },
+      { name: 'BANIA DORIS VELARDE GARCIA', id: 13944 },
+      { name: 'ARMANDO VACA CITA', id: 16959 },
+      { name: 'LIC. NANCY NÚÑEZ CHUMACERO', id: 10139 },
+      { name: 'FRANZ MARCELO MARTINEZ RODRIGUEZ', id: 34589 },
+      { name: 'DEYSI CUELLAR MELGAREJO', id: 34689 },
+      { name: 'LIC. JUAN CARLOS FLORES ALBIS', id: 34690 },
+      { name: 'LIC. ANGELA KARINA APRICIO MENDOZA', id: 34691 },
+      { name: 'LIC. OSVALDO VILDOZO VILLAMONTE', id: 34692 },
+      { name: 'VERÓNICA ADRIAZOLA MURIEL', id: 34693 },
+      { name: 'SOFIA VILLALPANDO CUISA', id: 34694 },
+      { name: 'ROCIO DÍAZ QUISPE', id: 34695 },
+      { name: 'ELMER GONZALO MAMANI LEÓN', id: 34696 }
     ]
   },
   mutations: {
