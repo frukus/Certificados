@@ -39,7 +39,9 @@ export default new Vuex.Store({
       { name: 'VERÓNICA ADRIAZOLA MURIEL', id: 34693 },
       { name: 'SOFIA VILLALPANDO CUISA', id: 34694 },
       { name: 'ROCIO DÍAZ QUISPE', id: 34695 },
-      { name: 'ELMER GONZALO MAMANI LEÓN', id: 34696 }
+      { name: 'ELMER GONZALO MAMANI LEÓN', id: 34696 },
+      { name: 'KATHERINE FABIOLA FLORES LAURA', id: 34697 },
+      { name: 'LIC. MARTHA VERONICA TORREZ ARDAYA', id: 34698 }
     ]
   },
   mutations: {
