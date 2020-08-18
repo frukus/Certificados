@@ -38,10 +38,14 @@ export default new Vuex.Store({
       { name: 'LIC. OSVALDO VILDOZO VILLAMONTE', id: 34692 },
       { name: 'VERÓNICA ADRIAZOLA MURIEL', id: 34693 },
       { name: 'SOFIA VILLALPANDO CUISA', id: 34694 },
-      { name: 'ROCIO DÍAZ QUISPE', id: 34695 },
+      { name: 'ZARA ROCIO DÍAZ QUISPE', id: 34695 },
       { name: 'ELMER GONZALO MAMANI LEÓN', id: 34696 },
       { name: 'KATHERINE FABIOLA FLORES LAURA', id: 34697 },
-      { name: 'LIC. MARTHA VERONICA TORREZ ARDAYA', id: 34698 }
+      { name: 'LIC. MARTHA VERONICA TORREZ ARDAYA', id: 34698 },
+      { name: 'LIC. JENNY CATALINA PINTO GUTIERREZ', id: 34699 },
+      { name: 'FREDDY ELOY MAMANI DURAN', id: 34700 },
+      { name: 'CONSTANTINA JALDIN MONTAÑO', id: 34701 },
+      { name: 'EDWARD LUNA RICALDI', id: 34702 }
     ]
   },
   mutations: {
