@@ -45,7 +45,10 @@ export default new Vuex.Store({
       { name: 'LIC. JENNY CATALINA PINTO GUTIERREZ', id: 34699 },
       { name: 'FREDDY ELOY MAMANI DURAN', id: 34700 },
       { name: 'CONSTANTINA JALDIN MONTAÑO', id: 34701 },
-      { name: 'EDWARD LUNA RICALDI', id: 34702 }
+      { name: 'EDWARD LUNA RICALDI', id: 34702 },
+      { name: 'LIC. VICTOR HUGO  LOAYZA MAMANI', id: 34703 },
+      { name: 'KEVIN DANIEL ROJAS', id: 34704 },
+      { name: 'JIMENA ALEJANDRA PUYAL PEREZ', id: 34705 }
     ]
   },
   mutations: {
