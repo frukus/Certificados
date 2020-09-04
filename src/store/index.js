@@ -51,7 +51,7 @@ export default new Vuex.Store({
       { name: 'JIMENA ALEJANDRA PUYAL PEREZ', id: 34705 },
       { name: 'CARMEN MERCEDES CALDERON QUISPE', id: 34706 },
       { name: 'ARMANDO VACA CITA', id: 34707 },
-      { name: 'TEREZA JAQUELINE SORIA GALVARRO', id: 34708 },
+      { name: 'TEREZA JAQUELINE FERREL SORIA GALVARRO', id: 34708 },
       { name: 'ANDREA TASTACA GASPAR', id: 34709 }
     ]
   },
